@@ -55,3 +55,60 @@ nav {
     overflow: hidden;
     transition: all .3s ease;
 }
+
+.social-icons {
+    display: none;
+}
+
+@media screen and (min-width:800px) {
+    .nav-toggle {
+        display: none;
+    }
+
+    .social-icons {
+        display: flex;
+    }
+
+    .nav-header {
+        padding: 0;
+    }
+
+    .nav-center {
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .links-container {
+        height: auto !important;
+    }
+
+    .links {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .links a {
+        padding: 0;
+    }
+
+    .links a:hover {
+        padding: 0;
+        background-color: transparent;
+        color: rgb(56, 241, 177);
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .social-icons a {
+        color: blue;
+    }
+
+
+}
